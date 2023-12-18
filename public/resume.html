@@ -1,0 +1,79 @@
+<!doctype html>
+<html style="scroll-behavior: smooth;" class="h-full bg-white">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Resume - Sitanshu's Portfolio</Title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-full">
+    <div class="relative overflow-hidden bg-white">
+        <header class="bg-white">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex lg:flex-1">
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a href="/about" class="text-sm font-semibold leading-6 text-gray-900">About Me</a>
+                    <a href="/project" class="text-sm font-semibold leading-6 text-gray-900">Project</a>
+                    <a href="/resume" class="text-sm font-semibold leading-6 text-gray-900">Resume</a>
+                    <a href="/hire" class="text-sm font-semibold leading-6 text-gray-900">Hire</a>
+                    <a href="/contact" class="text-sm font-semibold leading-6 text-gray-900">Contact</a>
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                </div>
+            </nav>
+        </header>
+
+        <div class="mt-5" id="viewer" style="width: full; height: 500px;"></div>
+        <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+        <script>
+            const config = {
+                documentId: '75339a23-563b-43ca-83ef-c0cc8a6ac317',
+                appBarColored: true,
+                themeColor: '#ffffff',
+                darkMode: false,
+                defaultScale: 'AUTOMATIC',
+                disableToolbar: true
+            };
+            CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+
+            });
+        </script>
+    </div>
+
+    <div class="bg-white py-24 sm:py-20">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Links to my social media handles.</h2>
+            <div
+                class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                <a href="https://github.com/Sitanshuu" target="_blank"><img
+                        class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="/images/github.jpg"
+                        alt="github" width="158" height="48"></a>
+
+                <a href="https://leetcode.com/Sitanshu2068/" target="_blank"><img
+                        class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="/images/leetcode.jpg"
+                        alt="leetcode" width="158" height="48"></a>
+
+                <a href="https://twitter.com/Sitanshu_097" target="_blank"><img
+                        class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+                        src="/images/twitter.jpg" alt="twitter" width="158" height="48"></a>
+
+                <a href="https://www.linkedin.com/in/sitanshu-das/" target="_blank"><img
+                        class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="/images/linkedin.jpg"
+                        alt="linkedin" width="158" height="48"></a>
+
+                <a href="https://www.instagram.com/_._.sitanshu._._/" target="_blank"><img
+                        class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                        src="/images/instagram.jpg" alt="instagram" width="158" height="48"></a>
+            </div>
+        </div>
+    </div>
+</body>
