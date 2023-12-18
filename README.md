@@ -1,6 +1,6 @@
 # Sitanshu's Portfolio
 ## Technologies Used
-- HTML5
+- `HTML5`
 - Tailwind CSS
 - JavaScript
 - Node Js
@@ -9,9 +9,9 @@
 - AWS Beanstalk
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project on your local machine, you will need to add the following environment variables to your .env file:
 
-`MONGO_URL`
+- `MONGO_URL`
 
-`PORT`
+- `PORT`
 
