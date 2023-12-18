@@ -3,6 +3,7 @@
 - HTML5
 - Tailwind CSS
 - JavaScript
-- Node JS
+- Node Js
+- Express Js
 - MongoDB
 - AWS Beanstalk
